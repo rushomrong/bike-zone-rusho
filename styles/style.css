@@ -73,8 +73,80 @@ nav.menu {
 /* banner section */
 
 .banner-section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   max-width: 69%;
   height: 27.938rem;
   margin: 69px auto;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.bike-content {
+  width: 465px;
+  /* border: 1px solid red; */
+  margin-right: 93px;
+}
+
+.bike-content .h6-title {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+  text-align: left;
+}
+
+.bike-content .h2-title {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  color: #fff;
+}
+
+.bike-content .honda-desc {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 18px;
+}
+
+.btn-purchase {
+  width: 168px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(231, 111, 81);
+  border: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 21px;
+}
+
+.right-image {
+  width: 552px;
+  height: 447px;
+  /* border: 1px solid red; */
+}
+
+.right-image img {
+  position: absolute;
+  z-index: 2;
+}
+
+.eclips::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-image: url("../images/others/eclips1.png");
+  background-size: contain;
+  z-index: 1;
+  top: 28%;
+  right: 19%;
 }
