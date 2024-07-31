@@ -11,6 +11,10 @@ font-family: "Poppins", sans-serif; */
   box-sizing: border-box;
 }
 
+.display-flex {
+  display: flex;
+}
+
 /* header section style */
 .header-container {
   width: 100%;
@@ -20,27 +24,25 @@ font-family: "Poppins", sans-serif; */
 
 .top-nav {
   margin: 0 auto;
-  width: 69%;
-  border: 1px solid red;
+  max-width: 76%; /*1446px*/
+  /* border: 1px solid red; */
   padding: 42px;
 }
 
 nav.menu {
-  display: flex;
   justify-content: right;
 }
 
 .menu ul {
-  display: flex;
+}
+
+.navlinks ul li {
+  list-style: none;
+  margin-right: 36px;
   margin-top: 10px;
 }
 
-.menu ul li {
-  list-style: none;
-  margin-right: 36px;
-}
-
-.menu ul li a {
+.navlinks ul li a {
   font-family: Poppins;
   font-size: 1rem;
   font-weight: 500;
@@ -58,4 +60,21 @@ nav.menu {
   font-weight: 500;
   color: #fff;
   cursor: pointer;
+}
+
+#ham-burger {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 25px;
+  margin-left: 36px;
+  display: none;
+}
+
+/* banner section */
+
+.banner-section {
+  border: 1px solid red;
+  max-width: 69%;
+  height: 27.938rem;
+  margin: 69px auto;
 }
