@@ -146,7 +146,6 @@ nav.menu {
   height: 150px;
   background-image: url("../images/others/eclips1.png");
   background-size: contain;
-  z-index: 1;
-  top: 28%;
+  /* top: 30%; */
   right: 19%;
 }

@@ -1,0 +1,33 @@
+@media screen and (max-width: 576px) {
+  .header-container {
+    height: 60rem;
+  }
+  .navlinks ul {
+    display: none;
+  }
+
+  #ham-burger {
+    display: block;
+  }
+
+  .banner-section {
+    flex-direction: column;
+  }
+
+  .right-image .eclips {
+    display: none;
+  }
+
+  .bike-content {
+    width: 95%;
+  }
+
+  .right-image {
+    margin-top: 56px;
+  }
+
+  .right-image img {
+    width: 70%;
+    height: 260px;
+  }
+}
