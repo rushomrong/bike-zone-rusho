@@ -12,6 +12,7 @@
 
   .banner-section {
     flex-direction: column;
+    margin-top: 36px;
   }
 
   .right-image .eclips {
