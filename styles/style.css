@@ -155,14 +155,14 @@ nav.menu {
   width: 100%;
   height: 43.313rem;
   background: #fff;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .bike-collection {
   margin: 0 auto;
   max-width: 76%;
   height: 34.75rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 70px;
   text-align: center;
 }

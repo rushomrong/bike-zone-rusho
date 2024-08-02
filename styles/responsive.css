@@ -35,4 +35,26 @@
   .top-nav {
     max-width: 100%;
   }
+
+  .bike-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 100px;
+  }
+
+  #bottom-line {
+    display: none;
+  }
+
+  .bike-collection .h2-title {
+    font-size: 1.563rem;
+    margin-bottom: 7px;
+  }
+
+  .featured-main {
+    height: 80rem;
+  }
+
+  .bike-collection {
+    height: fit-content;
+  }
 }
