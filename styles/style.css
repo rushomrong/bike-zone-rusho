@@ -195,3 +195,8 @@ span.collection-title {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
+img#bike1,
+#bike3 {
+  filter: grayscale(1);
+}
