@@ -199,6 +199,11 @@ span.collection-title {
 img#bike1,
 #bike3 {
   filter: grayscale(1);
+  width: 75%;
+}
+
+img#bike2 {
+  width: 75%;
 }
 
 /* news section style */
@@ -215,7 +220,6 @@ img#bike1,
   height: 47.75rem;
   /* border: 1px solid red; */
   margin-top: 70px;
-  text-align: center;
 }
 
 .latest-news .h2-title {
@@ -234,7 +238,7 @@ img#bike1,
 }
 
 .post {
-  width: 23.563rem;
+  width: 377px;
   height: 579px;
   /* border: 1px solid red; */
   text-align: left;
@@ -259,7 +263,7 @@ button.read-more {
   background: rgb(231, 111, 81);
   border: none;
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
   color: #fff;
 }
@@ -270,7 +274,7 @@ button.read-more2 {
   border: 1px solid rgb(231, 111, 81);
   border-radius: 5px;
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
   color: #e76f51;
   background: transparent;
@@ -278,14 +282,14 @@ button.read-more2 {
 
 .h5-title {
   font-family: Poppins;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 600;
   color: rgb(24, 25, 31);
 }
 
 p.desc {
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   color: rgb(108, 108, 108);
 }

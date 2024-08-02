@@ -51,10 +51,32 @@
   }
 
   .featured-main {
-    height: 80rem;
+    height: fit-content;
   }
 
   .bike-collection {
     height: fit-content;
+  }
+
+  .bike-posts-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 17px;
+  }
+
+  .latest-news {
+    max-width: 89%;
+    height: fit-content;
+  }
+
+  .latest-news .h2-title {
+    font-size: 36px;
+    text-align: left;
+  }
+
+  .post {
+  }
+
+  .news-main {
+    height: 131rem;
   }
 }
