@@ -29,7 +29,7 @@
 
   .right-image img {
     width: 70%;
-    height: 260px;
+    height: auto;
   }
 
   .top-nav {
@@ -58,25 +58,52 @@
     height: fit-content;
   }
 
-  .bike-posts-grid {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 17px;
-  }
-
   .latest-news {
-    max-width: 89%;
+    max-width: 100%;
     height: fit-content;
+    padding: 0 10px;
   }
 
   .latest-news .h2-title {
-    font-size: 36px;
+    font-size: 28px;
     text-align: left;
+    padding-left: 46px;
+  }
+
+  .bike-posts-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .post {
+    width: 85%;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .post img {
+    width: 100%;
+    height: auto;
+  }
+
+  .post .h5-title {
+    font-size: 20px;
+  }
+
+  .post .desc {
+    font-size: 14px;
+  }
+
+  .post .read-more,
+  .post .read-more2 {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
   }
 
   .news-main {
-    height: 131rem;
+    height: auto;
   }
 }
