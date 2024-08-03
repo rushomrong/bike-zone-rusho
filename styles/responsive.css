@@ -13,6 +13,8 @@
   .banner-section {
     flex-direction: column;
     margin-top: 36px;
+    width: 100%;
+    height: auto;
   }
 
   .right-image .eclips {
@@ -20,11 +22,16 @@
   }
 
   .bike-content {
-    width: 95%;
+    width: 100%;
+  }
+
+  .bike-content .h2-title {
+    font-size: 2.063rem;
   }
 
   .right-image {
     margin-top: 56px;
+    width: 100%;
   }
 
   .right-image img {
