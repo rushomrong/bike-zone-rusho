@@ -43,7 +43,8 @@
     max-width: 100%;
   }
 
-  .bike-grid {
+  .bike-grid,
+  .clients-grid {
     grid-template-columns: repeat(1, 1fr);
     gap: 100px;
   }
@@ -111,6 +112,19 @@
   }
 
   .news-main {
+    height: auto;
+  }
+
+  .clients-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .happy-clients,
+  .clients-reviews,
+  .clients {
+    width: 100%;
     height: auto;
   }
 }
