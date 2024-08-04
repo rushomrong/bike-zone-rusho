@@ -574,3 +574,13 @@ span.copyright {
 .right-info img#iso {
   margin-bottom: 17px;
 }
+
+.fa.fa-heart-o:before {
+  content: "\f004";
+  color: #e76f51;
+}
+
+.rm {
+  color: #e76f51;
+  text-decoration: none;
+}
