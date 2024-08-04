@@ -127,4 +127,27 @@
     width: 100%;
     height: auto;
   }
+
+  .content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .accordion-content {
+    width: 100%;
+  }
+
+  .ask-section img {
+    width: 100%;
+    margin-bottom: 90px;
+  }
+
+  .frequently-ask,
+  .ask-section {
+    height: fit-content;
+  }
+
+  .ask-section .h2-title {
+    font-size: 2.25rem;
+  }
 }
