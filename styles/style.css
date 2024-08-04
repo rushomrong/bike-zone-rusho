@@ -495,3 +495,82 @@ img#cl-img {
   height: 280px;
   background-color: #0b0d17;
 }
+
+.footer-content {
+  margin: 0 auto;
+  max-width: 76%;
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.main-content {
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 56px;
+}
+
+.quick-info ul {
+  display: flex;
+}
+.quick-info ul li {
+  list-style: none;
+  margin-right: 24px;
+}
+.quick-info ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.nav {
+  margin: 12px auto 24px auto;
+}
+.nav ul {
+  display: flex;
+}
+
+.nav ul li {
+  list-style: none;
+  margin-right: 24px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+span.copyright {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.right-info .h5-title {
+  color: rgb(217, 219, 225);
+  font-family: Manrope;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.right-info {
+  flex-direction: column;
+}
+
+.right-info img {
+  width: 134px;
+  height: 38px;
+}
+
+.right-info img#iso {
+  margin-bottom: 17px;
+}

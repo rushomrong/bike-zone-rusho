@@ -150,4 +150,54 @@
   .ask-section .h2-title {
     font-size: 2.25rem;
   }
+
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .footer-content,
+  .main-content,
+  .left-info,
+  .quick-info ul li {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  .nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: flex-start;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .nav ul li {
+    margin-right: 0px;
+  }
+
+  span#c1 {
+    display: none;
+  }
+
+  span#c2 {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 78px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  span#c2 {
+    display: none;
+  }
 }
