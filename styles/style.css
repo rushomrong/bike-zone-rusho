@@ -327,7 +327,10 @@ p.desc {
   text-align: center;
 }
 
-.clients-reviews,
+.clients-reviews #primary-title {
+  color: #e76f51;
+}
+
 .ask-section #primary-title {
   color: #e76f51;
 }
