@@ -1,0 +1,600 @@
+/* font-family: "Manrope", sans-serif; */
+/* font-family: "Inter", sans-serif;
+font-family: "Poppins", sans-serif; */
+
+/***********************/
+/* Developer Profile   */
+/* Name - Rusho Mrong  */
+/* Email - rushomarak@gmail.com */
+/* Github - https://github.com/rushomrong  */
+/*Please don't copy the code, you are free to see and checkout the code how i designed. If you need the code, you have to share the credit to me*/
+/*******************/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* global css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.display-flex {
+  display: flex;
+}
+
+/* header section style */
+.header-container {
+  width: 100%;
+  height: 43.625rem;
+  /* background: rgb(38, 70, 83); */
+  background-image: linear-gradient(
+      90deg,
+      rgb(24, 24, 24),
+      rgba(24, 24, 24, 0.82) 24.479%,
+      rgba(24, 24, 24, 0) 100%
+    ),
+    url("../images/others/hero-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-nav {
+  margin: 0 auto;
+  max-width: 76%; /*1446px*/
+  /* border: 1px solid red; */
+  padding: 42px;
+}
+
+.navlinks {
+  justify-content: space-between;
+}
+
+h2.logo-text {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+}
+
+.navlinks ul li {
+  list-style: none;
+  margin-right: 36px;
+  margin-top: 10px;
+}
+
+.navlinks ul li a {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
+
+.top-right {
+  padding: 10px 24px 10px 24px;
+  border-radius: 5px;
+  background: rgb(231, 111, 81);
+  border: none;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+#ham-burger {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 25px;
+  margin-left: 36px;
+  display: none;
+}
+
+/* banner section */
+
+.banner-section {
+  /* border: 1px solid red; */
+  max-width: 69%;
+  height: 27.938rem;
+  margin: 69px auto;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.bike-content {
+  width: 465px;
+  /* border: 1px solid red; */
+  margin-right: 93px;
+}
+
+.bike-content .h6-title {
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+  text-align: left;
+}
+
+.bike-content .h2-title {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  color: #fff;
+}
+
+.bike-content .honda-desc {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 18px;
+}
+
+.btn-purchase {
+  width: 168px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(231, 111, 81);
+  border: none;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 21px;
+}
+
+.right-image {
+  width: 552px;
+  height: 447px;
+  /* border: 1px solid red; */
+}
+
+.right-image img {
+  position: absolute;
+  z-index: 2;
+}
+
+.eclips::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-image: url("../others/eclips1.png");
+  background-size: contain;
+  /* top: 30%; */
+  right: 19%;
+}
+
+/* featured bike styles */
+.featured-main {
+  width: 100%;
+  height: 43.313rem;
+  background: #fff;
+  /* border: 1px solid red; */
+}
+
+.bike-collection {
+  margin: 0 auto;
+  max-width: 76%;
+  height: 34.75rem;
+  /* border: 1px solid red; */
+  margin-top: 70px;
+  text-align: center;
+}
+
+.bike-collection .h2-title {
+  font-family: Poppins;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #000;
+}
+
+span.collection-title {
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #e76f51;
+  position: relative;
+}
+
+#bottom-line {
+  position: absolute;
+  width: 58px;
+  border: 1px solid rgb(231, 111, 81);
+  margin-left: -5%;
+  margin-top: 1.5%;
+}
+
+.bike-grid {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+img#bike1,
+#bike3 {
+  filter: grayscale(1);
+  width: 75%;
+}
+
+img#bike2 {
+  width: 75%;
+}
+
+/* news section style */
+.news-main {
+  width: 100%;
+  height: 55.313rem;
+  background: #fff;
+  /* border: 1px solid red; */
+}
+
+.latest-news {
+  margin: 0 auto;
+  max-width: 76%;
+  height: 47.75rem;
+  /* border: 1px solid red; */
+  margin-top: 70px;
+}
+
+.latest-news .h2-title {
+  font-family: Poppins;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #0a0826;
+  text-align: center;
+}
+
+.bike-posts-grid {
+  margin-top: 47px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.post {
+  width: 377px;
+  height: 579px;
+  /* border: 1px solid red; */
+  text-align: left;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+}
+
+img#post-img {
+  margin-bottom: 40px;
+}
+
+p.desc {
+  margin-top: 10px;
+}
+
+button.read-more {
+  margin-top: 40px;
+  padding: 15px;
+  border-radius: 5px;
+  background: rgb(231, 111, 81);
+  border: none;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+button.read-more2 {
+  margin-top: 40px;
+  padding: 15px;
+  border: 1px solid rgb(231, 111, 81);
+  border-radius: 5px;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #e76f51;
+  background: transparent;
+}
+
+.h5-title {
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: rgb(24, 25, 31);
+}
+
+p.desc {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(108, 108, 108);
+}
+
+/* happy clients */
+
+.happy-clients {
+  width: 100%;
+  height: 55.313rem;
+  /* border: 1px solid red; */
+  background: #fff;
+}
+
+.clients-reviews {
+  margin: 0 auto;
+  max-width: 76%;
+  /* border: 1px solid red; */
+  height: 47.75rem;
+  margin-top: 70px;
+}
+
+.clients-reviews .h2-title {
+  font-family: Poppins;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #0a0826;
+  text-align: center;
+}
+
+.clients-reviews #primary-title {
+  color: #e76f51;
+}
+
+.ask-section #primary-title {
+  color: #e76f51;
+}
+
+.clients-grid {
+  margin-top: 52px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.clients {
+  width: 322px;
+  height: 478px;
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 40px 35px 40px 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(222, 222, 222);
+  background: rgb(255, 255, 255);
+}
+
+img#cl-img {
+  width: 149px;
+  height: 149px;
+  box-sizing: border-box;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 50%;
+}
+
+.clients p.desc {
+  margin-top: 30px;
+}
+
+.r-star {
+  width: 18px;
+  height: 18px;
+  margin: 16px 5px auto;
+}
+
+.stars {
+  justify-content: center;
+}
+
+.clients .h5-title {
+  margin: 15px 0 15px auto;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: rgb(35, 166, 240);
+}
+
+/* frequently ask */
+
+.frequently-ask {
+  width: 100%;
+  height: 55.313rem;
+  /* border: 1px solid red; */
+  background: #fff;
+}
+
+.ask-section img {
+  width: 30%;
+  height: fit-content;
+}
+
+.ask-section {
+  margin: 0 auto;
+  max-width: 76%;
+  /* border: 1px solid red; */
+  height: 47.75rem;
+  margin-top: 70px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.accordion {
+  /* background-color: #eee; */
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  /* border: 1px solid rgb(213, 229, 251);*/
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  /* margin-bottom: 13px; */
+}
+.accordion-content .ac {
+  border: 1px solid rgb(213, 229, 251);
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  outline: none;
+  padding: 10px 10px 0px 10px;
+  margin-bottom: 13px;
+}
+
+.accordion::after {
+  content: "\f078";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.813rem;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion.active:after {
+  content: "\f077";
+  display: block;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.panel p {
+  margin-bottom: 15px;
+  color: rgb(126, 132, 140);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.panel.show {
+  display: block;
+}
+
+.accordion-content {
+  width: 50%;
+  padding: 20px 24px 20px 24px;
+}
+
+.content {
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 50px;
+}
+
+.ask-section .h2-title {
+  font-family: Poppins;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #0a0826;
+  text-align: center;
+}
+
+/* footer section */
+
+.main-footer {
+  width: 100%;
+  height: 280px;
+  background-color: #0b0d17;
+}
+
+.footer-content {
+  margin: 0 auto;
+  max-width: 76%;
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.main-content {
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 56px;
+}
+
+.quick-info ul {
+  display: flex;
+}
+.quick-info ul li {
+  list-style: none;
+  margin-right: 24px;
+}
+.quick-info ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.nav {
+  margin: 12px auto 24px auto;
+}
+.nav ul {
+  display: flex;
+}
+
+.nav ul li {
+  list-style: none;
+  margin-right: 24px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+span.copyright {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.right-info .h5-title {
+  color: rgb(217, 219, 225);
+  font-family: Manrope;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.right-info {
+  flex-direction: column;
+}
+
+.right-info img {
+  width: 134px;
+  height: 38px;
+}
+
+.right-info img#iso {
+  margin-bottom: 17px;
+}
+
+.fa.fa-heart-o:before {
+  content: "\f004";
+  color: #e76f51;
+}
+
+.rm {
+  color: #e76f51;
+  text-decoration: none;
+}

@@ -1,0 +1,205 @@
+@media screen and (max-width: 576px) {
+  .header-container {
+    height: 60rem;
+    background-size: cover;
+    background-position: center;
+  }
+  .navlinks ul {
+    display: none;
+  }
+
+  #ham-burger {
+    display: block;
+  }
+
+  .banner-section {
+    flex-direction: column;
+    margin-top: 36px;
+    width: 100%;
+    height: auto;
+  }
+
+  .right-image .eclips {
+    display: none;
+  }
+
+  .bike-content {
+    width: 100%;
+  }
+
+  .bike-content .h2-title {
+    font-size: 2.063rem;
+  }
+
+  .right-image {
+    margin-top: 56px;
+    width: 100%;
+  }
+
+  .right-image img {
+    width: 70%;
+    height: auto;
+  }
+
+  .top-nav {
+    max-width: 100%;
+  }
+
+  .bike-grid,
+  .clients-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 100px;
+  }
+
+  #bottom-line {
+    display: none;
+  }
+
+  .bike-collection .h2-title {
+    font-size: 1.563rem;
+    margin-bottom: 7px;
+  }
+
+  .featured-main {
+    height: fit-content;
+  }
+
+  .bike-collection {
+    height: fit-content;
+  }
+
+  .latest-news {
+    max-width: 100%;
+    height: fit-content;
+    padding: 0 10px;
+  }
+
+  .latest-news .h2-title {
+    font-size: 2.25rem;
+    text-align: left;
+    padding-left: 46px;
+  }
+
+  .bike-posts-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .post {
+    width: 85%;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .post img {
+    width: 100%;
+    height: auto;
+  }
+
+  .post .h5-title {
+    font-size: 20px;
+  }
+
+  .post .desc {
+    font-size: 14px;
+  }
+
+  .post .read-more,
+  .post .read-more2 {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .news-main {
+    height: auto;
+  }
+
+  .clients-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .happy-clients,
+  .clients-reviews,
+  .clients {
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .accordion-content {
+    width: 100%;
+  }
+
+  .ask-section img {
+    width: 100%;
+    margin-bottom: 90px;
+  }
+
+  .frequently-ask,
+  .ask-section {
+    height: fit-content;
+  }
+
+  .ask-section .h2-title {
+    font-size: 2.25rem;
+  }
+
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .footer-content,
+  .main-content,
+  .left-info,
+  .quick-info ul li {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  .nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: flex-start;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .nav ul li {
+    margin-right: 0px;
+  }
+
+  span#c1 {
+    display: none;
+  }
+
+  span#c2 {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 78px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  span#c2 {
+    display: none;
+  }
+}
